@@ -1,0 +1,379 @@
+/**
+* @version   $Id$
+* @author    PIXELISM.CO.UK http://www.pixelism.co.uk
+* @copyright Copyright (C) PIXELISM.CO.UK
+*/
+
+/* Argana Surf SCHOOL Taghazout STYLES */
+
+
+div#layerslider_1 {
+    z-index: 1;
+}
+div#layerslider_2 {
+    z-index: 1;
+}
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+}
+
+
+.moduletable.home-links-mod a {
+    color: #333333;
+}
+
+div#idealCaptcha {
+    margin-bottom: 20px;
+}
+
+#g-navigation {
+    z-index: 100;
+}
+
+div#g-page-surround {
+    background: url(../images/background2.jpg)
+}
+
+/*#g-main {
+    padding: 1.5rem 0;
+    background: #fff;
+    color: #666;
+    margin: 25px 0;
+}*/
+
+#g-showcase {
+    margin-bottom: 25px;
+}
+#g-footer {
+    margin-top: 25px;
+	display:none;
+}
+
+#g-feature {
+    padding:  0;
+}
+
+a:hover {
+	color: #52bcd3;
+}
+
+h3 {
+  font-size: 125%;
+  font-weight: normal;
+}
+
+/* HEADER LOGO */
+
+.logo-block {
+  padding: 0 15px;
+  margin: 10px 10px;
+}
+
+/* MAIN MENU BG */
+
+#rt-top-surround {
+	background-color: transparent;
+	background-image: -moz-linear-gradient(top,transparent,transparent);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(transparent),to(transparent));
+	background-image: -webkit-linear-gradient(top,transparent,transparent);
+	background-image: -o-linear-gradient(top,transparent,transparent);
+	background-image: linear-gradient(to bottom,transparent,transparent);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='transparent', endColorstr='#transparent', GradientType=0);
+	color: #6E6E6E;
+	text-shadow: 0 2px 3px #FFF;
+	-webkit-box-shadow: 0 3px 25px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 3px 25px rgba(0,0,0,0.2);
+	box-shadow: 0 3px 25px rgba(0, 0, 0, 0.2);
+	border-top: 5px solid #99cc00;
+	border-bottom: 1px solid #eaeed9;
+}
+
+#rt-top-surround:after {
+	background: #fafcf2;
+}
+
+/* 	MAIN MENU */
+
+.menu-block {
+  padding: 0;
+  margin: 20px 0 20px 20px;
+}
+
+.home-links-mod h2 {
+	font-size:20px;
+	line-height: 20px;
+	font-weight: normal;
+}
+.gf-menu.l1 > li.active {
+  background: #FFF;
+}
+
+/* MOBILE MENU */
+
+.gf-menu-toggle {
+	margin: 2px 0 0 0;
+}
+.gf-menu-device-container.responsive-type-selectbox {
+  margin-top: 20px !Important;
+}
+/*.layout-mode-responsive .gf-menu-device-container {
+  background: #A00;
+}*/
+
+/* SUB MENU NAVIGATION */
+
+.moduletable.sub-menu {
+margin-bottom:30px;
+/*border: solid 5px #eeeeee;
+padding: 10px 20px;*/
+}
+.moduletable.sub-menu a {
+background: #fafcf2;
+color:#99CC00;
+font-size: 1.2em;
+padding: 10px;
+border-bottom: solid 2px #ffffff;
+border-radius: 10px 0 10px 0;
+}
+.moduletable.sub-menu a:hover {
+background: #99CC00;
+color:#ffffff;
+}
+li.current.active a {
+    background: #99CC00;
+    color:#ffffff;
+}
+ul.nav-child.unstyled.small li a {
+    display: block;
+    background: #fafcf2;
+}
+ul.nav-child.unstyled.small li a:hover {
+    display: block;
+    background: #99CC00;
+    color:#ffffff;
+}
+
+/* FORM REQUIRED */
+
+.requiredsign {
+    color: #C00;
+    padding: 0 0 15px 0;
+}
+
+/* TRIP ADVISOR HOME */
+
+div#CDSWIDSSP {
+  max-width: 100% !Important;
+}
+div.widSSPData {
+  border: 0px solid #589442 !IMPORTANT;
+}
+
+
+/* SLIDESHOWS */
+
+.slide-title {
+	font-size: 130% !important;
+	font-size-adjust:inherit;
+	text-shadow:none;
+	color: #ffffff !important;
+	margin-bottom: 5px;
+}
+.slide-title a {
+	color: #E6F1E7 !important;
+}
+.slide-title a:hover {
+	color: #ffffff !important;
+}
+.slide-desc-text a.readmore {
+	margin:10px 0 0 0;
+}
+.slide-desc-text {
+	color: #FFF;
+	text-shadow:none;
+	text-align: left;
+}
+.slide-desc-text .slide-text h2 {
+	color: #FFF;
+	font-weight: normal;
+	font-size: 150%;
+	line-height: 20px;
+	margin: 5px 0 10px 0;
+}
+.slide-desc-text p {
+	margin: 0;
+}
+.slide-desc-bg {
+	background: #84B81F !important;
+	opacity: 0.8 !important;
+	filter: alpha(opacity = 80) !important;
+}
+
+/* HOME LINKS */
+
+.home-links-mod {
+    border: 1px solid #eeeeee;
+    min-height: 450px;
+    padding: 0 20px;
+    margin-bottom: 25px;
+}
+
+.home-links-mod:hover {
+	background: #fafcf2;
+	border:1px solid #99cc00;
+}
+
+/* HIRE TABLES */
+
+#HIRE-TITLE td{
+  background-color: #eff8cd;
+}
+#HIRE td {
+  font-size: 80%;
+  border: #ffffff 5px solid;
+  padding: 5px;
+}
+#HIRE tr {
+	color: #111111;
+	background: #FAFCF2;
+}
+#HIRE tr:hover {
+	color: #111111;
+	background: #ffffee;
+}
+
+/* CONTACT FORM */
+
+div.requiredsign {
+	color:#ff0000;
+	margin: 0 0 10px 0;
+}
+
+/* SHOWCASE */
+
+#rt-showcase {
+  margin-bottom: 20px;
+}
+
+.rt-showcase-pattern {
+	background: #99cc00;
+	background-image: none;
+	background-size: 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+	background-position: 02px 02px, 02px 02px, 01px 01px, 01px 01px;
+}
+
+/*.rt-showcase-pattern {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.03) 2px,rgba(0, 0, 0, 0) 2px), -webkit-linear-gradient(0,rgba(0, 0, 0, 0.03) 2px,rgba(0, 0, 0, 0) 2px), -webkit-linear-gradient(rgba(0, 0, 0, 0.03) 1px,rgba(0, 0, 0, 0) 1px), -webkit-linear-gradient(0,rgba(0, 0, 0, 0.03) 1px,rgba(0, 0, 0, 0) 1px);
+  background-size: 80px 80px, 80px 80px, 5px 5px, 5px 5px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}*/
+
+/* MAIN TOP */
+
+#rt-maintop {
+  background: transparent;
+  border-bottom: 0px solid #FFF;
+  box-shadow: 0 0px 0 #CECECE, inset 0 0px 0px 0 rgba(0, 0, 0, 0.0);
+  padding-top: 0px;
+}
+
+/* FOOTER AREA */
+
+footer#rt-footer-surround {
+  margin-top: 20px;
+}
+
+#rt-footer {
+  color: #6E6E6E;
+  background: #FAFCF2 url(https://www.escapesurfschool.co.uk/templates/g5_hydrogen/images/patterns/noise.png);
+  border-top: 1px solid #AFAFAF;
+  -webkit-box-shadow: inset 0 5px 12px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow: inset 0 5px 12px rgba(0,0,0,0.13);
+  box-shadow: inset 0 5px 12px rgba(0, 0, 0, 0.13);
+}
+
+#rt-footer a {
+	color:#111111;
+}
+#rt-footer a:hover {
+	color:#99CC00;
+	text-shadow: 1px 1px 0 #333333;
+}
+/* COPYRIGHT AREA */
+
+#rt-copyright {
+	background:#ffffff;
+	border-top: 1px solid #eeeeee;
+	-webkit-box-shadow: inset 0 0px 0 #eeeeee;
+	-moz-box-shadow: inset 0 0px 0 #eeeeee;
+	box-shadow: inset 0 0px 0 #eeeeee;
+}
+#rt-copyright a {
+	color:#aaaaaa;
+}
+#rt-copyright a:hover {
+	color:#99CC00;
+}
+
+/* BRANDING COPYRIGHT */
+
+.pixelism {
+	font-size: .8em;
+}
+
+
+/* WHITE OUTS */
+
+div#rt-feature .rt-container {
+	background: #ffffff;
+}
+div#rt-main .rt-container {
+	background: #ffffff;
+}
+#rt-maintop .rt-container {
+	background: #ffffff;
+}
+div#rt-mainbottom .rt-container {
+	background: #ffffff;
+}
+div#rt-extension .rt-container {
+	background: #ffffff;
+}
+div#rt-bottom .rt-container {
+	background: #ffffff;
+}
+
+/* IMAGE RIGHT MOD */
+
+.moduletable.image-right {
+    margin-bottom: 25px;
+}
+
+/* SLIDER TIGHT IMAGE */
+
+.moduletable.slider-right {
+    margin-bottom: 43px;
+}
+
+/* TWITTER MOD */
+
+.support_author {
+  display: none;
+}
+
+/* ESHOP */
+
+.eshop-info-block p {
+    margin: 0;
+}
+.moduletable.esscart {
+    background: #FAFCF2;
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 1px solid #99cc00;
+}
+.moduletable.esscart h2 {
+    margin: 0 0 10px 0;
+}
